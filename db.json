@@ -1,0 +1,49 @@
+{
+    "hikes": [
+      {
+        "id": 1,
+        "name": "Appalachian Trail",
+        "start_finish": "Springer Mountain, Georgia - Mount Katahdin, Maine",
+        "length": "2,190 miles",
+        "best_time_to_start": "March to April",
+        "description": "The Appalachian Trail is a 2,190-mile long public footpath that traverses the scenic, wooded, pastoral, wild, and culturally resonant lands of the Appalachian Mountains.",
+        "image": "appalachian_trail.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Pacific Crest Trail",
+        "start_finish": "Campo, California - Manning Park, British Columbia, Canada",
+        "length": "2,650 miles",
+        "best_time_to_start": "April to May",
+        "description": "The Pacific Crest Trail (PCT) is a long-distance hiking and equestrian trail closely aligned with the highest portion of the Cascade and Sierra Nevada mountain ranges, which lie 100 to 150 miles east of the U.S. Pacific coast.",
+        "image": "pacific_crest_trail.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Continental Divide Trail",
+        "start_finish": "Crazy Cook Monument, New Mexico - Waterton Lake, Montana",
+        "length": "3,100 miles",
+        "best_time_to_start": "April to May",
+        "description": "The Continental Divide Trail (CDT) is a United States National Scenic Trail running 3,100 miles between Mexico and Canada.",
+        "image": "continental_divide_trail.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Arizona Trail",
+        "start_finish": "Coronado National Memorial, Arizona - Utah-Arizona border near Fredonia, Arizona",
+        "length": "800 miles",
+        "best_time_to_start": "March to April", 
+        "description": "The Arizona Trail is an 800-mile long-distance hiking trail located in Arizona, USA. It traverses the state from north to south, passing through diverse landscapes, including deserts, mountains, canyons, and forests.",
+        "image": "arizona_trail.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Pacific Northwest Trail",
+        "start_finish": "Chief Mountain Customs, Montana - Cape Alava, Washington",
+        "length": "1,200 miles",
+        "best_time_to_start": "June to August",
+        "description": "The Pacific Northwest Trail is a 1,200-mile long-distance hiking trail that spans from the Continental Divide in Montana to the Pacific Ocean in Washington State. It passes through the Rocky Mountains, Selkirk Mountains, Pasayten Wilderness, North Cascades, Olympic Mountains, and more.",
+        "image": "pacific_northwest_trail.jpg"
+      }
+    ]
+  }
