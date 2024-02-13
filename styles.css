@@ -1,13 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+
+  body{
+    background-color: bisque;
   }
   
   h1 {
@@ -15,17 +8,7 @@ body {
   }
   
   #hikes-list {
-    margin-bottom: 20px;
-  }
-  
-  .hike {
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .hike:hover {
-    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
   }
