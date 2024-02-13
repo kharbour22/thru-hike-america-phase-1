@@ -9,19 +9,18 @@
       .then(data => {
         data.forEach(hike => {
           const hikeCard = document.createElement('div');
-          hikeCard.innerHTML = `
-            <img src="${hike.image}" alt="${hike.name}" />
-            <h3>${hike.name}</h3>
-            
-          `;
+          hikeCard.innerHTML = `<img src="${hike.image}" alt="${hike.name}" />
+            <h3>${hike.name}</h3>`;
 
           //Adds click event to each hikecard when hikecard is clicked
           hikeCard.addEventListener('click', () => showHikeDetails(hike));
-        
+          
           hikesList.appendChild(hikeCard);
         });
       })
       .catch(error => console.error('No hikes today:', error));
+
+  
 
       
   
