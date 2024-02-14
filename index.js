@@ -1,9 +1,10 @@
-//Variables to display hike details and list
+//Const to display hike details and list
     const hikesList = document.getElementById('hikes-list');
     const hikeDetails = document.getElementById('hike-details');
     
   
     // Fetch hikes data from db.json
+    //Array Iteration
     fetch('http://localhost:3000/hikes')
       .then(response => response.json())
       .then(data => {
@@ -15,7 +16,7 @@
             
           //Adds click event to each hikecard when hikecard is clicked
           hikeCard.addEventListener('click', () => showHikeDetails(hike));
-          //Adds a mouseover listener that displays image
+          //Adds a mouseover listener that displays image to hikecard
           hikeCard.addEventListener('mouseover', () => displayHikeImageOnMouseover(hike));
          
           hikesList.appendChild(hikeCard);
@@ -50,11 +51,11 @@ function displayHikeImageOnMouseover(hike) {
 
 
 
-
+//Const for submit form
 const submitForm = document.getElementById('submitForm');
 const displaySubmission = document.getElementById('displaySubmission');
 
- // Add submit event listener to the form
+ // Add submit event listener to the form 
  submitForm.addEventListener('submit', (event) => {
   event.preventDefault(); // Prevent form submission
 
@@ -62,16 +63,16 @@ const displaySubmission = document.getElementById('displaySubmission');
   const submissionInput = document.getElementById('submission');
   const submittedContent = submissionInput.value;
 
-  // Check if the submitted content is not empty
+  // Check if submittedComment is empty
   if (submittedContent !== '') {
-    // Create a new paragraph element to display the submitted content
+    // Creates paragragh ('P') to submittedComment with .textcontent
     const submissionElement = document.createElement('p');
     submissionElement.textContent = `Hiker: ${submittedContent}`;
     
-    // Append the new paragraph element to the display area
+    // Append paragraph element to the display
     displaySubmission.appendChild(submissionElement);
     
-    // Clear the input field
+    // Clears field
     submissionInput.value = '';
   }
 });

@@ -15,11 +15,12 @@
   }
 
   #displaySubmission {
-    border: 2px solid black; /* Black border */
-    background-color: white; /* White background */
-    padding: 200px; /* Add some padding for spacing */
-    margin-top: 20px; /* Add some margin from the top */
+    border: 2px solid black; 
+    background-color: white; 
     text-align: left;
+    width: 400px; 
+    height: 300px;
+
   }
   
     
