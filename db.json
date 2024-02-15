@@ -7,9 +7,9 @@
       "length": "2,190 miles",
       "best_time_to_start": "March to April",
       "description": "The Appalachian Trail is a 2,190-mile long public footpath that traverses the scenic, wooded, pastoral, wild, and culturally resonant lands of the Appalachian Mountains.",
-      "image": "C:\\Users\\kharb\\Pictures\\Screenshots\\AT2.png",
-      "image2": "C:\\Users\\kharb\\Pictures\\Screenshots\\AT.png",
-      "image3": "C:\\Users\\kharb\\Pictures\\Screenshots\\ATMAP.png"
+      "image": "assets/AT2.png",
+      "image2": "assets/AT.png",
+      "image3": "assets/ATMAP.png"
     },
     {
       "id": 2,
@@ -18,9 +18,9 @@
       "length": "2,650 miles",
       "best_time_to_start": "April to May",
       "description": "The Pacific Crest Trail (PCT) is a long-distance hiking and equestrian trail closely aligned with the highest portion of the Cascade and Sierra Nevada mountain ranges, which lie 100 to 150 miles east of the U.S. Pacific coast.",
-      "image": "C:\\Users\\kharb\\Pictures\\Screenshots\\PCT2.png",
-      "image2": "C:\\Users\\kharb\\Pictures\\Screenshots\\PCT.png",
-      "image3": "C:\\Users\\kharb\\Pictures\\Screenshots\\PCTMAP.png"
+      "image": "assets/PCT2.png",
+      "image2": "assets/PCT.png",
+      "image3": "assets/PCTMAP.png"
     },
     {
       "id": 3,
@@ -29,9 +29,9 @@
       "length": "3,100 miles",
       "best_time_to_start": "April to May",
       "description": "The Continental Divide Trail (CDT) is a United States National Scenic Trail running 3,100 miles between Mexico and Canada.",
-      "image": "C:\\Users\\kharb\\Pictures\\Screenshots\\CDT2.png",
-      "image2": "C:\\Users\\kharb\\Pictures\\Screenshots\\CDT.png",
-      "image3": "C:\\Users\\kharb\\Pictures\\Screenshots\\CDTMAP.png"
+      "image": "assets/CDT2.png",
+      "image2": "assets/CDT.png",
+      "image3": "assets/CDTMAP.png"
     },
     {
       "id": 4,
@@ -40,9 +40,9 @@
       "length": "800 miles",
       "best_time_to_start": "March to April", 
       "description": "The Arizona Trail is an 800-mile long-distance hiking trail located in Arizona, USA. It traverses the state from north to south, passing through diverse landscapes, including deserts, mountains, canyons, and forests.",
-      "image": "C:\\Users\\kharb\\Pictures\\Screenshots\\AZT2.png",
-      "image2": "C:\\Users\\kharb\\Pictures\\Screenshots\\AZT.png",
-      "image3": "C:\\Users\\kharb\\Pictures\\Screenshots\\AZTMAP.png"
+      "image": "assets/AZT2.png",
+      "image2": "assets/AZT.png",
+      "image3": "assets/AZTMAP.png"
     },
     {
       "id": 5,
@@ -51,9 +51,9 @@
       "length": "1,200 miles",
       "best_time_to_start": "June to August",
       "description": "The Pacific Northwest Trail is a 1,200-mile long-distance hiking trail that spans from the Continental Divide in Montana to the Pacific Ocean in Washington State. It passes through the Rocky Mountains, Selkirk Mountains, Pasayten Wilderness, North Cascades, Olympic Mountains, and more.",
-      "image": "C:\\Users\\kharb\\Pictures\\Screenshots\\PNT2.png",
-      "image2": "C:\\Users\\kharb\\Pictures\\Screenshots\\PNT.png",
-      "image3": "C:\\Users\\kharb\\Pictures\\Screenshots\\PNTMAP.png"
+      "image": "assets/PNT2.png",
+      "image2": "assets/PNT.png",
+      "image3": "assets/PNTMAP.png"
     }
   ]
 }
